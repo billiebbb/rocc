@@ -1,0 +1,18 @@
+html,body{width:100%;height:100%;font-family:Arial,Helvetica,sans-serif,STHeiti Light,LiHei Pro,Microsoft Yahei,Microsoft JhengHei;background-color:#695f56;}
+div{font-family:Arial,Helvetica,sans-serif,STHeiti Light,LiHei Pro,Microsoft Yahei,Microsoft JhengHei;}
+a,a:active,a:focus,a:hover,input{outline:0;outline-style:none;outline-width:0;}
+ul{list-style:none;}
+#logo{width:165px;height:62px;position:fixed;top:30px;left:70px;background:transparent url(../images/logo.png) no-repeat;}
+#menu{position:fixed;right:70px;top:30px;}
+#menu .item{width:43px;height:152px;position:absolute;cursor:pointer;}
+#menu .item a{display:none;}
+#menu .item:hover{background-color:#000000;}
+#menu .item.active{background-color:#000000;}
+section{display:none;}
+#footer{width:100%;height:46px;background-color:#cccccc;position:fixed;bottom:0;}
+#footer .copyright{font-size:11px;width:auto;margin-left:20px;height:46px;line-height:46px;float:left;}
+#footer .search_widget{width:auto;height:26px;line-height:26px;right:20px;position:absolute;margin:10px 0;}
+#footer .search_widget input{border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+#footer .search_widget .key{font-size:12px;width:150px;height:26px;line-height:26px;background-color:#ffffff;position:relative;padding:0 5px;float:left;}
+#footer .search_widget .sbtn{font-size:12px;width:auto;height:26px;line-height:26px;background-color:#666666;color:#ffffff;position:relative;padding:0 15px;float:left;cursor:pointer;margin-top:1px;}
+#footer .search_widget .sbtn:hover{background-color:#333333;}
